@@ -9,13 +9,13 @@ export default function Hero() {
             <h1 className="leading-tight whitespace-nowrap text-3xl lg:text-5xl font-bold text-white mb-6 text-balance">
               안녕하세요,
               <br />
-              <span className="text-blue-400">성실하게 배우고,노력으로 완성</span>하는 개발자
+              <span className="text-blue-400">성실하게 배우고, 노력으로 완성</span>하는 개발자
               <br />
             김윤서입니다.
             </h1>
-            <p className="whitespace-nowrap text-xl text-slate-300 mb-8 text-pretty leading-relaxed">
+            {/* <p className="whitespace-nowrap text-xl text-slate-300 mb-8 text-pretty leading-relaxed">
               맡은 일을 책임감 있게 수행하며, 꾸준한 노력과 열정을 통해 의미 있는 결과물을 만들어 갑니다.
-            </p>
+            </p> */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link
                 href="#projects"

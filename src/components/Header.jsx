@@ -11,6 +11,7 @@ export default function Header() {
           <Link href="#about" className="text-slate-300 hover:text-white transition-colors">소개</Link>
           <Link href="#projects" className="text-slate-300 hover:text-white transition-colors">프로젝트</Link>
           <Link href="#skills" className="text-slate-300 hover:text-white transition-colors">기술</Link>
+          <Link href="#history" className="text-slate-300 hover:text-white transition-colors">성장과정</Link>
           <Link href="#contact" className="text-slate-300 hover:text-white transition-colors">연락</Link>
         </nav>
         <Link

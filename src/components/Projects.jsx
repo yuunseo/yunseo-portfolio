@@ -4,30 +4,28 @@ import Link from 'next/link';
 const projectsData = [
   {
     id: 1,
-    title: '프로젝트 1',
-    description: '혁신적인 기술을 활용한 웹 애플리케이션 프로젝트입니다.',
-    techStack: ['React', 'Node.js'],
-    githubUrl: '#',
-    demoUrl: '#',
-    imageUrl: '/images/project-1.png',
+    title: '알람+투두 앱 개발 프로젝트',
+    description: '사용자 인터페이스를 고려하여 설계하는 모바일 앱 개발 프로젝트입니다.',
+    techStack: ['Java', 'XML'],
+    githubUrl: 'https://github.com/ssu-alram/alram-app?tab=readme-ov-file',
+    imageUrl: "/UIProject.png",
   },
   {
     id: 2,
-    title: '프로젝트 2',
-    description: '사용자 경험을 최적화한 모바일 앱 개발 프로젝트입니다.',
-    techStack: ['Next.js', 'Tailwind CSS'],
-    githubUrl: '#',
-    demoUrl: '#',
-    imageUrl: '/images/project-2.png',
+    title: 'AI 영어회화 앱 개발 프로젝트',
+    description: 'AI와 실시간으로 대화하는 모바일 앱 개발 프로젝트입니다.',
+    techStack: ['Python', 'Django'],
+    githubUrl: 'https://github.com/yuunseo/AnyLearn',
+    imageUrl: '/AnyLearnProject.png',
   },
   {
     id: 3,
-    title: '프로젝트 3',
-    description: 'AI 기술을 접목한 데이터 분석 솔루션입니다.',
-    techStack: ['Python', 'Django'],
-    githubUrl: '#',
-    demoUrl: '#',
-    imageUrl: '/images/project-3.png',
+    title: '메타버스 학습공간 개발 프로젝트',
+    description: '실시간 소통이 가능한 웹 서비스 개발 프로젝트입니다.',
+    techStack: ['React', 'Next.js'],
+    githubUrl: 'https://github.com/KimZo2/ON-FE',
+    // demoUrl: '#',
+    imageUrl: '/ONProject.png',
   },
 ];
 
@@ -66,9 +64,6 @@ export default function Projects() {
                   <div className="flex gap-2">
                     <Link href={project.githubUrl} className="p-2 text-slate-400 hover:text-white transition-colors">
                       GitHub
-                    </Link>
-                    <Link href={project.demoUrl} className="p-2 text-slate-400 hover:text-white transition-colors">
-                      Demo
                     </Link>
                   </div>
                 </div>

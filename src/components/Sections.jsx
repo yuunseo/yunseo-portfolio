@@ -30,10 +30,7 @@ export default function Sections() {
                 <br />
                 간편하고 직관적으로 사용할 수 있는 기능을 제공합니다.
               </p>
-              {/* <button className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
-                깃허브 보기 →
-              </button> */}
-              <Link href="https://github.com/KimZo2/ON-FE" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
+              <Link href="https://github.com/ssu-alram/alram-app?tab=readme-ov-file" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
                       깃허브 보기 →
                 </Link>
             </div>
@@ -55,7 +52,9 @@ export default function Sections() {
                 <br/>
                 대화 내용을 복습하며 학습 기회를 제공합니다.
               </p>
-              <button className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">깃허브 보기 →</button>
+            <Link href="https://github.com/yuunseo/AnyLearn" className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
+                      깃허브 보기 →
+                </Link>
             </div>
             <div className="flex justify-center">
               <div className="bg-white rounded-2xl p-8 shadow-xl">
@@ -98,9 +97,9 @@ export default function Sections() {
                 <br />
                 혼자일 때보다 함께할 때의 동기부여를 제공합니다.
               </p>
-              <button className="text-yellow-600 font-semibold hover:text-yellow-700 transition-colors">
-                깃허브 보기 →
-              </button>
+              <Link href="https://github.com/KimZo2/ON-FE" className="text-yellow-600 font-semibold hover:text-yellow-700 transition-colors">
+                      깃허브 보기 →
+                </Link>
             </div>
           </div>
         </div>

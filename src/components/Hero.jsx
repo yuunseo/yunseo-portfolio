@@ -14,7 +14,7 @@ export default function Hero() {
             김윤서입니다.
             </h1>
             <p className="whitespace-nowrap text-xl text-slate-300 mb-8 text-pretty leading-relaxed">
-              맡은 일을 책임감 있게 수행하며, 꾸준한 노력과 열정을 통해 실제로 동작하고 의미 있는 결과물을 만들어 갑니다.
+              맡은 일을 책임감 있게 수행하며, 꾸준한 노력과 열정을 통해 의미 있는 결과물을 만들어 갑니다.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link

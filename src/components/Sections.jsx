@@ -7,7 +7,6 @@ export default function Sections() {
       <section id="projects" className="min-h-screen bg-purple-50 flex items-center px-6">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-
              <div className="flex justify-center">
               <div className="bg-white rounded-2xl p-8 shadow-xl">
                     <Image
@@ -30,6 +29,13 @@ export default function Sections() {
                 <br />
                 간편하고 직관적으로 사용할 수 있는 기능을 제공합니다.
               </p>
+              
+              {/* 기술 스택 섹션 추가 */}
+              <div className="flex gap-2 mb-8">
+                <span className="px-3 py-1 bg-purple-200 text-gray-800 text-sm rounded-full font-medium">Java</span>
+                <span className="px-3 py-1 bg-purple-200 text-gray-800 text-sm rounded-full font-medium">XML</span>
+              </div>
+
               <Link href="https://github.com/ssu-alram/alram-app?tab=readme-ov-file" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
                       깃허브 보기 →
                 </Link>
@@ -52,6 +58,13 @@ export default function Sections() {
                 <br/>
                 대화 내용을 복습하며 학습 기회를 제공합니다.
               </p>
+
+              {/* 기술 스택 섹션 추가 */}
+              <div className="flex gap-2 mb-8">
+                <span className="px-3 py-1 bg-blue-300 text-gray-800 text-sm rounded-full font-medium">Python</span>
+                <span className="px-3 py-1 bg-blue-300 text-gray-800 text-sm rounded-full font-medium">Django</span>
+              </div>
+
             <Link href="https://github.com/yuunseo/AnyLearn" className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
                       깃허브 보기 →
                 </Link>
@@ -97,6 +110,13 @@ export default function Sections() {
                 <br />
                 혼자일 때보다 함께할 때의 동기부여를 제공합니다.
               </p>
+
+              {/* 기술 스택 섹션 추가 */}
+              <div className="flex gap-2 mb-8">
+                <span className="px-3 py-1 bg-yellow-300 text-gray-800 text-sm rounded-full font-medium">React</span>
+                <span className="px-3 py-1 bg-yellow-300 text-gray-800 text-sm rounded-full font-medium">Next.js</span>
+              </div>
+              
               <Link href="https://github.com/KimZo2/ON-FE" className="text-yellow-600 font-semibold hover:text-yellow-700 transition-colors">
                       깃허브 보기 →
                 </Link>

@@ -12,14 +12,22 @@ export default function Header() {
           <Link href="#projects" className="text-slate-300 hover:text-white transition-colors">프로젝트</Link>
           <Link href="#skills" className="text-slate-300 hover:text-white transition-colors">기술</Link>
           <Link href="#history" className="text-slate-300 hover:text-white transition-colors">성장과정</Link>
-          <Link href="#contact" className="text-slate-300 hover:text-white transition-colors">연락</Link>
         </nav>
-        <Link
-          href="#contact"
-          className="px-4 py-2 border border-slate-600 text-slate-300 hover:bg-slate-700 bg-transparent rounded-md transition-colors"
-        >
-          연락하기
-        </Link>
+        
+        <div className="flex items-center gap-4"> 
+          <Link
+            href="mailto:dbstj7457@naver.com"
+            className="px-3 py-1.5 border border-slate-600 text-slate-300 hover:bg-slate-700 bg-transparent rounded-md transition-colors hidden sm:block text-sm"
+          >
+            📧 이메일 보내기
+          </Link>
+          <Link
+            href="https://github.com/yuunseo"
+            className="px-3 py-1.5 border border-slate-600 text-slate-300 hover:bg-slate-700 bg-transparent rounded-md transition-colors hidden sm:block text-sm"
+          >
+            🔗 GitHub 보기
+          </Link>
+        </div>
       </div>
     </header>
   );

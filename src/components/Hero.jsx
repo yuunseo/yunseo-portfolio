@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left">
-            <h1 className="leading-tight whitespace-nowrap text-3xl lg:text-5xl font-bold text-white mb-6 text-balance">
+            <h1 className="leading-tight whitespace-nowrap text-3xl lg:text-5xl font-bold text-black mb-6 text-balance">
               안녕하세요,
               <br />
               <span className="text-blue-400">성실하게 배우고, 노력으로 완성</span>하는 개발자
@@ -19,7 +19,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link
                 href="#projects"
-                className="px-6 py-3 border border-slate-600 text-slate-300 hover:bg-slate-700 bg-transparent rounded-md transition-colors"
+                className="px-6 py-3 border border-slate-600 text-black-300 hover:bg-slate-700 bg-transparent rounded-md transition-colors"
                 >
                 프로젝트 보기
                 <span className="ml-2">→</span>

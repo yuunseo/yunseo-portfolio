@@ -45,10 +45,10 @@ const historyData = [
 
 export default function History() {
   return (
-    <section id="history" className="bg-slate-900 py-20 px-6">
+    <section id="history" className="bg-white py-20 px-6">
       <div className="max-w-4xl mx-auto w-full">
         <div className="text-center mb-16">
-          <p className="text-xl text-slate-300 text-pretty">
+          <p className="text-xl text-gray-600 text-pretty">
             맡은 일을 책임감 있게 수행하며, 꾸준한 노력과 열정을 통해 
             <br/> 
             의미 있는 결과물을 만들어온 저의 여정을 소개합니다.
@@ -58,15 +58,15 @@ export default function History() {
         <div>
           {historyData.map((data, index) => (
             <div key={data.year}>
-              <div className="relative border-b border-slate-700 py-8">
-                <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 pl-4 md:pl-0">{data.year}</h3>
+              <div className="relative border-b border-gray-200 py-8">
+                <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 pl-4 md:pl-0">{data.year}</h3>
                 <ul className="space-y-6">
                   {data.events.map((event, eventIndex) => (
                     <li key={eventIndex} className="flex items-start md:items-center">
-                      <div className="text-base text-slate-400 font-medium w-16 flex-shrink-0">
+                      <div className="text-base text-gray-600 font-medium w-16 flex-shrink-0">
                         {event.month}
                       </div>
-                      <p className="text-white text-lg flex-1">
+                      <p className="text-gray-900 text-lg flex-1">
                         {event.description}
                       </p>
                     </li>

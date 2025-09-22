@@ -20,18 +20,19 @@ export default function About() {
   return (
     <section id="about" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        {/* <h2 className="text-3xl font-bold text-white text-center mb-12">소개</h2> */}
-        <div className="grid md:grid-cols-3 gap-8">
+        {/* <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">소개</h2> */}
+        <div className="grid md:grid-cols-3 gap-8 items-stretch">
           {aboutItems.map((item, index) => (
-            <div
-              key={index}
-              className="border border-slate-700 rounded-lg p-6"
-            >
-              <div className="text-blue-400 text-2xl mb-4">{item.icon}</div>
-              <h3 className="text-xl font-semibold text-black mb-3">{item.title}</h3>
-              <p className="text-black-300 leading-relaxed">
-                {item.description}
-              </p>
+            <div key={index} className="flex flex-col">
+              <div className="flex justify-center flex-1">
+                <div className="bg-white rounded-2xl p-8 shadow-xl flex flex-col h-full w-full">
+                  <div className="text-blue-600 text-2xl mb-4">{item.icon}</div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed flex-1">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
             </div>
           ))}
         </div>

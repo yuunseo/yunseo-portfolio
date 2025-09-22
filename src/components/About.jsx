@@ -25,11 +25,11 @@ export default function About() {
           {aboutItems.map((item, index) => (
             <div
               key={index}
-              className="bg-slate-800/50 border border-slate-700 rounded-lg p-6"
+              className="border border-slate-700 rounded-lg p-6"
             >
               <div className="text-blue-400 text-2xl mb-4">{item.icon}</div>
-              <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
-              <p className="text-slate-300 leading-relaxed">
+              <h3 className="text-xl font-semibold text-black mb-3">{item.title}</h3>
+              <p className="text-black-300 leading-relaxed">
                 {item.description}
               </p>
             </div>
